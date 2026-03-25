@@ -1,6 +1,6 @@
 // ---------------------------------------------------------
 // Proyecto: Esqueletización de Imágenes y Poda Voraz
-// Autor: Gabriel Ortiz Sepulveda | Fecha: 24/03/2026
+// Autor: Gabriel Ortiz Sepulveda 638222/Diego Rodríguez Quintana 666915 | Fecha: 23/03/2026
 // Materia: Análisis y diseño de algoritmos (ADA)
 // ---------------------------------------------------------
 
@@ -160,3 +160,6 @@ int main() {
 Temporal: O((Iteraciones) * Filas * Columnas)
 Espacial: O(Filas * Columnas) para almacenar la imagen.
 */
+
+// Yo Gabriel Ortiz Sepulveda he realizado este examen apego al codigo udem 
+// Yo Diego Rodríguez Quintana he realizado este examen apego al codigo udem 
