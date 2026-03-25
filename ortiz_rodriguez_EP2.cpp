@@ -1,6 +1,6 @@
 // ---------------------------------------------------------
 // Proyecto: Esqueletizacion de Imagenes y Poda Voraz
-// Autor: Gabriel Ortiz Sepulveda | Fecha: 24/03/2026
+// Autor: Gabriel Ortiz Sepulveda 6338222/ Diego Rodriguez Quintana 666915 | Fecha: 24/03/2026
 // Materia: Analisis y diseno de algoritmos (ADA)
 // Referencias: 
 // - https://cppreference.com/w/cpp/io.html
