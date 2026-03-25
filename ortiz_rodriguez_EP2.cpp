@@ -8,7 +8,7 @@
 
 #include <iostream> // para imprimir y leer datos en la consola permite usar 'cout' y 'cin'.
 #include <vector>   // para crear arreglos dinamicos necesario para manejar nuestra matriz 2D.
-#include <iomanip>  // para darle formato visual al texto impreso como alinear columnas y espacios.
+
 
 using namespace std;
 
@@ -159,7 +159,7 @@ int main() {
 }
 
 /*
---- Análisis de Complejidad ---
+--- Analisis de Complejidad ---
 Temporal: O(K + P * N * M), donde: // Analisis de Complejidad ---
  - N: es el numero de filas de la imagen Filas.
  - M: es el numero de columnas de la imagen Columnas.
