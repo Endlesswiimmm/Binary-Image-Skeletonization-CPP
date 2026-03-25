@@ -1,16 +1,18 @@
 // ---------------------------------------------------------
-// Proyecto: Esqueletización de Imágenes y Poda Voraz
-// Autor: Gabriel Ortiz Sepulveda 638222/Diego Rodríguez Quintana 666915 | Fecha: 23/03/2026
-// Materia: Análisis y diseño de algoritmos (ADA)
+// Proyecto: Esqueletizacion de Imagenes y Poda Voraz
+// Autor: Gabriel Ortiz Sepulveda | Fecha: 24/03/2026
+// Materia: Analisis y diseno de algoritmos (ADA)
+// Referencias: 
+// - https://cppreference.com/w/cpp/io.html
 // ---------------------------------------------------------
 
-#include <iostream>
-#include <vector>
-#include <iomanip>
+#include <iostream> // para imprimir y leer datos en la consola (permite usar 'cout' y 'cin').
+#include <vector>   // para crear arreglos dinamicos (necesario para manejar nuestra matriz 2D).
+#include <iomanip>  // para darle formato visual al texto impreso (como alinear columnas y espacios).
 
 using namespace std;
 
-// Alias para matriz dinámica
+// Alias para matriz dinamica
 using Matrix = vector<vector<int>>;
 
 // --- Utilidades ---
@@ -30,8 +32,8 @@ void imprimirMatriz(const Matrix& img, string titulo) {
 
 void crearHNormal(Matrix& img) {
     for (int i = 5; i <= 14; ++i) {
-        img[i][5] = 1; img[i][6] = 1;   // Línea izq
-        img[i][13] = 1; img[i][14] = 1; // Línea der
+        img[i][5] = 1; img[i][6] = 1;   // Linea izq
+        img[i][13] = 1; img[i][14] = 1; // Linea der
     }
     for (int j = 7; j <= 12; ++j) {
         img[9][j] = 1; img[10][j] = 1;  // Barra central
@@ -162,4 +164,4 @@ Espacial: O(Filas * Columnas) para almacenar la imagen.
 */
 
 // Yo Gabriel Ortiz Sepulveda he realizado este examen apego al codigo udem 
-// Yo Diego Rodríguez Quintana he realizado este examen apego al codigo udem 
+// Yo Diego Rodriguez Quintana he realizado este examen apego al codigo udem 
